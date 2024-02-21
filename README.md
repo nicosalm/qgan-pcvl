@@ -1,19 +1,18 @@
-<div style="text-align: center;">
+<p align="center">
   <img src="images/iquhack.png" alt="drawing" width="150"/>
-</div>
+</p>
 
-# Quantum Generative Adversarial Networks (QGANs) with Quandela's Perceval
+ # Building a quantum-photonic generative adversarial network (QGAN) with Quandela's Perceval framework
 
 ---
 
 Quandela Challenge - Team 5 (BiQer Mice from Mars) Members: [Dhanvi Bharadwaj](https://github.com/d-bharadwaj/), [Kshitij Duraphe](https://github.com/ksd3/), [Nico Salm](https://github.com/nicosalm/), [Sarannya Bhattacharya](https://github.com/Emperor963/), [Vinay Swamik](https://github.com/vinayswamik/).
 
-<div style="text-align: center;">
-  <img src="images/bu.png" alt="drawing" width="100"/>
-  <img src="images/uw.png" alt="drawing" width="200"/>
-  <img src="images/quandela.png" alt="drawing" width="102"
-  >
-</div>
+<p align="center">
+  <img src="docs/images/bu.png" alt="drawing" width="100"/>
+  <img src="docs/images/uw.png" alt="drawing" width="200"/>
+  <img src="docs/images/quandela.png" alt="drawing" width="102"/>
+</p>
 
 ---
 
@@ -86,10 +85,13 @@ This is a rather different approach at optimizing the game strategy of the gener
 This was our initial approach. Given an arbitrary function **F**, we can approximate its derivatives by performing automatic differentiation (such as PyTorch's grad()). However, as we have no backpropagation defined, we cannot successfully perform backpropagation. We then created a finite-difference method that approximated the derivative using the definition of the derivative. To optimize, we utilized stochastic gradient descent. Our observations were that the loss went to 0 in the second iteration. We suspect that we are overfitting the model but could not successfully resolve the error even after using learning rates in the range of 1e-8. 
 
 ## Bonus no. 1!
+TODO!
 
 ## Bonus no. 2!
+TODO!
 
 ## Bonus no. 3!
+TODO!
 
 ## Graphs
 Following is a demonstration of the high confidence output of vectorized QGAN
